@@ -43,7 +43,7 @@ struct mmapdr_device
     unsigned int nr_pages; 
 
     struct mutex lock; 
-    atomic_t  open count; 
+    atomic_t  open_count; 
 
     /*stats */ 
     atomic64_t fault_count; 
